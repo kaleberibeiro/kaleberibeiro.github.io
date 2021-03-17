@@ -71,5 +71,19 @@
         <p>Email: contacto@gmail.com</p>
         <p>Telefone: 911117435</p>
         </fieldset>
+        <br>
+        <form action="https://www.youtube.com/" method="GET">
+        <input type="text" required name="nome"><br>
+        <input type="email" required name="email" size="30"><br>
+        <input type="tel" required name="telefone" pattern="^9[0-9]{8}" required><br>
+        <select id="idade" name="idade" required>
+            <option value="a">a</option>
+            <option value="b">b</option>
+            <option value="c">c</option>
+            <option value="d">d</option>
+        </select><br>
+        <textarea style="width: 500px; height: 100px;" maxlength="255" required></textarea><br>
+        <input type="submit" name="enviar" value="Enviar">
+    </form>
     </body>
 </html>
