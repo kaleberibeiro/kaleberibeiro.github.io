@@ -1,0 +1,62 @@
+body{
+    background-color: yellow;
+}
+
+h1{
+    color: green;
+    text-align: center;
+    padding-top: 110px;
+}
+h2{
+    color: green;
+    text-align: center;
+}
+p{
+    text-align: center;
+    padding-top: 100px;
+}
+
+img{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+#caixa{
+    background-color: black;
+    padding: 10px;
+    border: 10px solid red;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 20px;
+}
+
+#texto{
+    color: white;
+    line-height: 5px;
+    padding-left: 50px;
+    word-spacing: 5px;
+}
+
+#linkUA{
+    color:green;
+    text-decoration: none;
+}
+.lista{
+    padding: 50px;
+}
+.lista ul{
+    padding: 30px;
+}
+
+.lista li{
+    float: left;
+    padding-right: 70px;
+    padding-left: 10px;
+    list-style-image: url(../ficha4/seta.gif);
+}
+
+.lista a{
+    color: green;
+    text-decoration: underline;
+}

@@ -1,0 +1,63 @@
+
+body{
+    background-color: hotpink;
+}
+
+#header{
+    position: static;
+    background-color: limegreen;
+    width: 1875px;
+    height: 100px;
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+#cinzento{
+    position: relative;
+    background-color: grey;
+    width: 1875px;
+    height: 600px;
+    margin: 10px;
+}
+
+#pele{
+    position: absolute;
+    background-color: lightsalmon;
+    width: 350px;
+    height: 550px;
+    margin: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+#laranja{
+    position: absolute;
+    background-color: orangered;
+    left: 370px;
+    width: 1460px;
+    height: 550px;
+    margin: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+#azul{
+    position: relative;
+    background-color: blue;
+    width: 1875px;
+    height: 100px;
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+#amarelo{
+    position: fixed;
+    background-color: yellow;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 50px;
+}
+

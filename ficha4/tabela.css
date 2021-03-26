@@ -1,0 +1,26 @@
+.tabela {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 500px;
+  }
+
+.tabela th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.tabela td{
+    width: 500px;
+    height: 30px;
+}
+
+.tabela table, th, td{
+    border: 3px solid green;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: grey;
+}

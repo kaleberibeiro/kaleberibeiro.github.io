@@ -1,0 +1,21 @@
+body{
+    background-color: yellow;
+}
+
+h1{
+    text-align: center;
+    padding-top: 110px;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+    padding-top: 100px;
+}
+
+img{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
