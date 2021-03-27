@@ -1,0 +1,120 @@
+body{
+    margin: 0px;
+}
+#top{
+    background-color: #424b5a;
+    padding: 20px 20px 40px 20px;
+    color: white;
+    font-style: normal;
+    font-family: cursive;
+}
+
+#top a{
+    text-decoration: none;
+    color: white;
+}
+#div2{
+    background-image: url(../ficha5/bg.jpg);
+    background-size: cover;
+    background-position: left;
+    padding: 20px 20px 40px 20px;
+    font-family: cursive;
+    color: gray;
+}
+
+#div2 h1{
+    color: #424b5a;
+}
+
+#div2 a{
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #424b5a;
+    font-family: cursive;
+    padding: 7px;
+    color: white;
+}
+
+#div3{
+    font-family: cursive;
+    padding: 20px 20px 40px 20px;
+}
+
+#div3 h1{
+    color: #424b5a;
+    text-transform: uppercase;
+}
+
+#div3 h4{
+    color: #424b5a;
+}
+
+#div3 ul{
+    color: #a1aeb7;
+    list-style-type: square;
+}
+
+#div4{
+    font-family: cursive;
+    padding: 20px 20px 40px 20px;
+    background-color: #f2f5f7;
+    color: #a1aeb7;
+}
+
+#div4 h1{
+    color: #424b5a;
+    text-transform: uppercase;
+}
+
+#div5{
+    padding: 20px 20px 40px 20px;
+}
+
+#div5 h1{
+    font-family: cursive;
+    color: #424b5a;
+    text-transform: uppercase;
+}
+
+#div5 > table{
+    text-align:center;
+    border-collapse: collapse;
+    background-color:  #f2f5f7;
+    color: #a1aeb7;
+}
+
+#div5 th {
+    background-color: #c2d1d9;;
+    color: #424b5a;
+  }
+
+#div5 td , th{
+    border: 1px solid gray;
+    padding: 20px;
+}
+
+#div6{
+    padding: 20px 20px 40px 20px;
+    background-color:  #f2f5f7;
+
+}
+
+#div6 h1{
+    color: #424b5a;
+    text-transform: uppercase;
+}
+
+#div6 input , select, textarea, option{
+    padding: 10px;
+    width: 200px;
+    margin: 10px;
+    font-family: cursive;
+}
+
+#enviar{
+    background-color:  #424b5a;
+    font-size: 16px;
+    border-radius: 5px;
+    color: white;
+    font-family: cursive;
+}
