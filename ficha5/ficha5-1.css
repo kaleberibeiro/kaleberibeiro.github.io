@@ -1,12 +1,13 @@
 body{
     margin: 0px;
+    font-family: "Montserrat";
 }
 #top{
     background-color: #424b5a;
     padding: 20px 20px 40px 20px;
     color: white;
     font-style: normal;
-    font-family: cursive;
+    font-family: "Concert One";
 }
 
 #top a{
@@ -18,7 +19,7 @@ body{
     background-size: cover;
     background-position: left;
     padding: 20px 20px 40px 20px;
-    font-family: cursive;
+    font-family: "Concert One";
     color: gray;
 }
 
@@ -30,13 +31,13 @@ body{
     border-radius: 5px;
     text-decoration: none;
     background-color: #424b5a;
-    font-family: cursive;
+    font-family: "Concert One";
     padding: 7px;
     color: white;
 }
 
 #div3{
-    font-family: cursive;
+    font-family: "Concert One";
     padding: 20px 20px 40px 20px;
 }
 
@@ -55,7 +56,7 @@ body{
 }
 
 #div4{
-    font-family: cursive;
+    font-family: "Concert One";
     padding: 20px 20px 40px 20px;
     background-color: #f2f5f7;
     color: #a1aeb7;
@@ -71,7 +72,7 @@ body{
 }
 
 #div5 h1{
-    font-family: cursive;
+    font-family: "Concert One";
     color: #424b5a;
     text-transform: uppercase;
 }
@@ -93,28 +94,35 @@ body{
     padding: 20px;
 }
 
-#div6{
+.div6{
     padding: 20px 20px 40px 20px;
     background-color:  #f2f5f7;
 
 }
 
-#div6 h1{
+.div6 h1{
     color: #424b5a;
     text-transform: uppercase;
 }
 
-#div6 input , select, textarea, option{
+.div6 input , textarea, option{
     padding: 10px;
     width: 200px;
     margin: 10px;
-    font-family: cursive;
+    font-family: "Concert One";
+}
+.div6 select{
+    padding: 10px;
+    width: 222px;
+    margin: 10px;
+    font-family: "Concert One";
 }
 
-#enviar{
+.div6 input[type="submit"]{
     background-color:  #424b5a;
     font-size: 16px;
+    width: 222px;
     border-radius: 5px;
     color: white;
-    font-family: cursive;
+    font-family: "Concert One";
 }

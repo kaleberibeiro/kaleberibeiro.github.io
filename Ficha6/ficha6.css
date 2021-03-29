@@ -1,0 +1,79 @@
+body{
+    background-color: gray;
+}
+.main{
+    background-color: white;
+    position: relative;
+    width: 750px;
+    height: 900px;
+    border: 2px solid white;
+}
+.div2 img{
+    position: relative;
+    width: 750px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.div3{
+    position: relative;
+    background-color: rgb(27, 212, 27);
+    margin: 0px;
+    border: 10px solid rgb(27, 212, 27);
+}
+
+.div3 ul {
+    margin: 0;
+    padding: 0;
+}
+  
+.div3 li {
+    display: inline-block;
+    padding: 8px;
+    color: white;
+}
+
+#whiteBox{
+    background: white;
+    width: 120px;
+    height: 20px;
+
+}
+
+#texto{
+    width: 470px;
+    position: relative;
+    left: 20px;
+}
+
+#caixa{
+    border: 1px solid grey;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 200px;
+    height: 200px;
+}
+
+.div4{
+    background-color: white;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+.div4 h1{
+    color: grey;
+}
+
+.rodape{
+    background-color: grey;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+.rodape ul{
+    text-align: center;
+    padding: 3px;
+}
