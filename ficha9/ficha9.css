@@ -1,0 +1,85 @@
+body{
+    background-color: gray;
+}
+
+#caixa{
+    position: relative;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+#caixaVermelha{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(146, 32, 32);
+    text-align: right;
+    color: white;
+    width: 860px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+#simbolo{
+    float: right;
+    margin: auto;
+    padding: 10px;
+}
+
+.grid-container{
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    padding: 40px;
+}
+
+.grid-item{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    color: black;
+    border: 1px solid gray;
+    text-align: center;
+    margin: auto;
+    line-height: 50px;
+}
+
+.boneco{
+    opacity: 0.1;
+    position: absolute;
+    top: 150px;
+    left: 10px;
+}
+
+.erro{
+    position: absolute;
+    top: 380px;
+    left: 10px;
+}
+
+.erromaior{
+    position: absolute;
+    top: 153px;
+    left: 10px;
+}
+
+.linha{
+    position: absolute;
+    text-align: center;
+    font-size: 15px;
+    color: red;
+    border-bottom: 1px solid black;
+    width: 40px;
+    bottom: 20px;
+    right: 30px;
+}

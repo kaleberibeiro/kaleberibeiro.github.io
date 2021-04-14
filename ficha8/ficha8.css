@@ -1,0 +1,64 @@
+.calc{
+    position: relative;
+    height: max-content;
+}
+
+#caixa{
+    border: 1px solid black;
+    width: min-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.calc p{
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.grid-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 80px 40px 40px 40px;
+}
+
+.grid-item {
+    box-sizing: border-box;
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    color: white;
+    border: 2px solid white;
+    text-align: center;
+    margin: auto;
+    line-height: 50px;
+}
+
+.campo{
+    position: absolute;
+    left: 55px;
+}
+
+.campo2{
+    position: absolute;
+    left: 55px;
+    top: 80px;
+}
+
+#e{
+    float: right;
+    border: 1px solid black;
+    width: 150px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+#r{
+    float: right;
+    border: 1px solid black;
+    width: 150px;
+    height: 20px;
+    margin-left: 5px;
+}
