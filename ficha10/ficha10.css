@@ -1,0 +1,87 @@
+#caixa{
+    border: 1px solid black;
+    display: block;
+    width: min-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+[contentEditable=true]:empty:not(:focus):before{
+    content:attr(data-text)
+}
+
+#caixa h1{
+    margin: 20px;
+}
+
+
+.grid-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 15px;
+}
+
+#nomeTarefa{
+    width: 200px;
+    height: 32px;
+    color: gray;
+    border: 1px solid gray;
+    margin: 15px;
+    margin: 5px;
+    line-height: 30px;
+}
+
+#dataTarefa{
+    width: 200px;
+    height: 30px;
+    color: gray;
+    border: 1px solid gray;
+    margin: 15px;
+    margin: 5px;
+}
+
+#adiciona{
+    background-color: green;
+    color: white;
+    height: 20px;
+    width: 20px;
+    margin: 13px 5px 5px 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#edita{
+    background-color: green;
+    color: white;
+    height: 20px;
+    width: 20px;
+    margin: 13px 5px 5px 5px;
+    text-align: center;
+    border-radius: 5px;
+    display: none;
+}
+
+
+.tarefas{
+    position: relative;
+    display: grid;
+    grid-template-columns: 428px 40px;
+    padding: 13px;
+    color: tomato;
+}
+
+.conteudo{
+    font-size: 20px;
+    margin: 8px;
+}
+
+.elimina{
+    background-color: red;
+    color: white;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 8px;
+}
