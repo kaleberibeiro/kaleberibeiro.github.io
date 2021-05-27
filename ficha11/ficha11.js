@@ -35,7 +35,7 @@ for(i=0;i<campos.length;i++){
 }
 
 function criaTabuleiro(valor){
-    if(valor == 0){
+    if(valor < 3 || valor > 22){
         return;
     }else{
         tabuleiro.style.visibility = "visible";
@@ -154,9 +154,6 @@ function adiciona(evento){
                 vencedor.innerText = "O Jogador 0 venceu!";
                 vencedor.style.display = "block";
             }
-
-            console.log(cruzes);
-            console.log(bolas);
         }
         cruzes = 0;
         bolas = 0;
@@ -186,6 +183,7 @@ function adiciona(evento){
                 vencedor.innerText = "O Jogador 0 venceu!";
                 vencedor.style.display = "block";
             }
+            console.log(cruzes)
         }
         cruzes = 0;
         bolas = 0;
