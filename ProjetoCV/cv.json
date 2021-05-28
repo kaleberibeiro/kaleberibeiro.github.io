@@ -1,9 +1,12 @@
 {
-    "Nome" : "Marcos Ribeiro",
+    "geral" : {
+        "Nome" : "Marcos Ribeiro",
     "NomeCompleto" : "Marcos Kalebe Silva Ribeiro",
-    "Profisao" : "Estudante de Tecnologias de Informação",
+    "Profissao" : "Estudante de Tecnologias de Informação",
     "Idade" : 19,
     "Email" : "kaleberibeiro@ua.pt",
     "Telefone" : 917708785,
-    "Morada" : "Quinta Olho d' Água"
+    "Morada" : "Quinta Olho d' Água",
+    "Foto" : "images/perfil1.jpg"
+    }
 }
