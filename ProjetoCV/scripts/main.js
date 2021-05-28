@@ -6,10 +6,11 @@ AOS.init({
 
 // Add your javascript here
 
-var NomeTitulo = document.getElementsByClassName("site-title mb-0");
+var NomeTitulo = document.getElementById("nomeTopo");
 
 fetch('cv.json')
         .then(response => response.json())
         .then(function(cv){
+          NomeTitulo.innerText = cv.Nome;
           console.log(cv);
         })
