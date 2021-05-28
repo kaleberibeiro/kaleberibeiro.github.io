@@ -19,13 +19,13 @@ var sobre = document.getElementById("sobreMim");
 fetch('cv.json')
         .then(response => response.json())
         .then(function(cv){
-          NomeTitulo.innerText = cv.Nome;
-          NomePrincipal.innerText = cv.NomeCompleto;
-          Profissao.innerText = cv.Profissao;
-          Idade.innerText = cv.Idade;
-          Email.innerText = cv.Email;
-          Telefone.innerText = cv.Telefone;
-          Morada.innerText = cv.Morada;
-          fotoPerfil.src = cv.Foto;
-          sobre.innerText = cv.Descrição;
+          NomeTitulo.innerText = cv.geral.Nome;
+          NomePrincipal.innerText = cv.geral.NomeCompleto;
+          Profissao.innerText = cv.geral.Profissao;
+          Idade.innerText = cv.geral.Idade;
+          Email.innerText = cv.geral.Email;
+          Telefone.innerText = cv.geral.Telefone;
+          Morada.innerText = cv.geral.Morada;
+          fotoPerfil.src = cv.geral.Foto;
+          sobre.innerText = cv.geral.Descrição;
         })
