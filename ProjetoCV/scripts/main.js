@@ -11,5 +11,5 @@ var NomeTitulo = document.getElementsByClassName("site-title mb-0");
 fetch('cv.json')
         .then(response => response.json())
         .then(function(cv){
-          NomeTitulo.innerHTML = cv.Nome;
+          console.log(cv);
         })
