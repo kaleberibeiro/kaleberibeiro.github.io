@@ -32,6 +32,13 @@ fetch('cv.json')
           fotoPerfil.src = cv.geral.Foto;
           sobre.innerText = cv.geral.Descrição;
 
+
+          cv.forEach(function(e){
+            console.log("Curso: " + e.Curso);
+            console.log("Escola: " + e.Escola);
+            console.log("Epoca: " + e.Epoca);
+          })
+          /*
           for( e in cv.Educacao){
             Educacao.innerHTML += "<div class='timeline-card timeline-card-success' data-aos='fade-in' data-aos-delay='0'>"+
           "<div class='timeline-head px-4 pt-3'>"+ "<div class='h5'>" + e.Curso + "<span class='text-muted h6'>"+ e.Escola +"</span>          </div>"+
@@ -40,6 +47,6 @@ fetch('cv.json')
             "<div class='text-muted text-small mb-3'>"+ e.Epoca + "</div>" +
           "</div>"+
         "</div>";
-          }
+          }*/
           //educação
         })
