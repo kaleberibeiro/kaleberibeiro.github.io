@@ -14,6 +14,7 @@ var Email = document.getElementById("email");
 var Telefone = document.getElementById("telefone");
 var Morada = document.getElementById("morada");
 var fotoPerfil = document.getElementById("imagemPerfil");
+var sobre = document.getElementById("sobreMim");
 
 fetch('cv.json')
         .then(response => response.json())
@@ -26,4 +27,5 @@ fetch('cv.json')
           Telefone.innerText = cv.Telefone;
           Morada.innerText = cv.Morada;
           fotoPerfil.src = cv.Foto;
+          sobre.innerText = cv.Descrição;
         })
