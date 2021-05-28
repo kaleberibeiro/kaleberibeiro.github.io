@@ -33,20 +33,20 @@ fetch('cv.json')
           sobre.innerText = cv.geral.Descrição;
 
 
-          cv.forEach(function(e){
+          /*cv.forEach(function(e){
             console.log("Curso: " + e.Curso);
             console.log("Escola: " + e.Escola);
             console.log("Epoca: " + e.Epoca);
-          })
-          /*
-          for( e in cv.Educacao){
+          })*/
+          
+          for( var e in cv.Educacao){
             Educacao.innerHTML += "<div class='timeline-card timeline-card-success' data-aos='fade-in' data-aos-delay='0'>"+
-          "<div class='timeline-head px-4 pt-3'>"+ "<div class='h5'>" + e.Curso + "<span class='text-muted h6'>"+ e.Escola +"</span>          </div>"+
+          "<div class='timeline-head px-4 pt-3'>"+ "<div class='h5'>" + cv.Educacao[e].Curso + "<span class='text-muted h6'>"+ cv.Educacao[e].Escola +"</span>          </div>"+
           "</div>"+
           "<div class='timeline-body px-4 pb-4'>"+
-            "<div class='text-muted text-small mb-3'>"+ e.Epoca + "</div>" +
+            "<div class='text-muted text-small mb-3'>"+ cv.Educacao[e].Epoca + "</div>" +
           "</div>"+
         "</div>";
-          }*/
+          }
           //educação
         })
