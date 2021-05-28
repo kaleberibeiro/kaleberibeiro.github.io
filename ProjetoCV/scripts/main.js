@@ -7,10 +7,22 @@ AOS.init({
 // Add your javascript here
 
 var NomeTitulo = document.getElementById("nomeTopo");
+var NomePrincipal = document.getElementById("nomePrincipal");
+var Profissao = document.getElementById("profissao");
+var Idade = document.getElementById("idade");
+var Email = document.getElementById("email");
+var Telefone = document.getElementById("telefone");
+var Morada = document.getElementById("morada");
 
 fetch('cv.json')
         .then(response => response.json())
         .then(function(cv){
           NomeTitulo.innerText = cv.Nome;
-          console.log(cv);
+          NomePrincipal.innerText = cv.NomeCompleto;
+          Profissao.innerText = cv.Profissao;
+          Idade.innerText = cv.Idade;
+          Email.innerText = cv.Email;
+          Telefone.innerText = cv.Telefone;
+          Morada.innerText = cv.Morada;
+
         })
