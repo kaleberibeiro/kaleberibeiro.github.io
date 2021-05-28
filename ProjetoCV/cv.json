@@ -8,19 +8,19 @@
         "Telefone" : 917708785,
         "Morada" : "Quinta Olho d' Água",
         "Foto" : "images/perfil1.jpg",
-        "Descrição" : "Teste"
+        "Descrição" : "O meu nome é Marcos Ribeiro, sou um estudante do segundo ano de Tecnologias de Informação."
     },
 
     "Educacao" : [
         {
-            "Escola" : "Escola Secundária Jaime Magalhães Lima",
-            "Epoca" : "2016-2019",
-            "Curso" : "Ciências e Tecnologia"
-        },
-        {
-            "Escola" : "Escola Superior de Tecnologia e Gestão de Águeda",
+            "Escola" : "Escola Superior de Tecnologia e Gestão de Águeda ",
             "Epoca" : "2019-Presente",
             "Curso" : "Licenciatura em Tecnologias da Informação"
+        },
+        {
+            "Escola" : "Escola Secundária Jaime Magalhães Lima ",
+            "Epoca" : "2016-2019",
+            "Curso" : "Ciências e Tecnologia"
         }
     ]
 }
