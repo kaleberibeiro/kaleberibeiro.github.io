@@ -7,6 +7,7 @@ AOS.init({
 // Add your javascript here
 
 var NomeTitulo = document.getElementById("nomeTopo");
+var NomeFooter = document.getElementById("nomeBaixo");
 var NomePrincipal = document.getElementById("nomePrincipal");
 var Profissao = document.getElementById("profissao");
 var Idade = document.getElementById("idade");
@@ -15,11 +16,13 @@ var Telefone = document.getElementById("telefone");
 var Morada = document.getElementById("morada");
 var fotoPerfil = document.getElementById("imagemPerfil");
 var sobre = document.getElementById("sobreMim");
+var Educacao = document.getElementById("Educacao"); 
 
 fetch('cv.json')
         .then(response => response.json())
         .then(function(cv){
           NomeTitulo.innerText = cv.geral.Nome;
+          NomeFooter.innerText = cv.geral.Nome;
           NomePrincipal.innerText = cv.geral.NomeCompleto;
           Profissao.innerText = cv.geral.Profissao;
           Idade.innerText = cv.geral.Idade;
@@ -28,4 +31,15 @@ fetch('cv.json')
           Morada.innerText = cv.geral.Morada;
           fotoPerfil.src = cv.geral.Foto;
           sobre.innerText = cv.geral.Descrição;
+
+          for( e in cv.Educacao){
+            Educacao.innerHTML += "<div class='timeline-card timeline-card-success' data-aos='fade-in' data-aos-delay='0'>"+
+          "<div class='timeline-head px-4 pt-3'>"+ "<div class='h5'>" + e.Curso + "<span class='text-muted h6'>"+ e.Escola +"</span>          </div>"+
+          "</div>"+
+          "<div class='timeline-body px-4 pb-4'>"+
+            "<div class='text-muted text-small mb-3'>"+ e.Epoca + "</div>" +
+          "</div>"+
+        "</div>";
+          }
+          //educação
         })
