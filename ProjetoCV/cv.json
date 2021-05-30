@@ -30,6 +30,18 @@
             "Linguas" : "Eletronic / C++",
             "Titulo" : "Simon Says",
             "Descricao" : "Este projeto trata-se de um jogo muito popular, o simon says, que foi desenvolvido com alguns Leds, botões, um buzzer e o principal que é o arduino, entre outros componentes utilizados."
+        },
+        {
+            "Foto" : "images/arduino.jpg",
+            "Linguas" : "Eletronic / C++",
+            "Titulo" : "Simon Says",
+            "Descricao" : "Este projeto trata-se de um jogo muito popular, o simon says, que foi desenvolvido com alguns Leds, botões, um buzzer e o principal que é o arduino, entre outros componentes utilizados."
+        },
+        {
+            "Foto" : "images/arduino.jpg",
+            "Linguas" : "Eletronic / C++",
+            "Titulo" : "Simon Says",
+            "Descricao" : "Este projeto trata-se de um jogo muito popular, o simon says, que foi desenvolvido com alguns Leds, botões, um buzzer e o principal que é o arduino, entre outros componentes utilizados."
         }
     ]
 }

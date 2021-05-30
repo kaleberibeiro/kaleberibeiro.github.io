@@ -48,16 +48,28 @@ fetch('cv.json')
 
           //portfolio
           for( var p in cv.Portfolio){
-            console.log(p);
-            Portfolio.innerHTML += "<div class= 'row g-0'> " +
-            "<div class='col-md-6'>" + "<img class='img-fluid' src='"+cv.Portfolio[p].Foto + "' width='800' height='500'/>"+"</div>"+
-            "<div class='col-md-6 d-flex align-items-center' data-aos='fade-left' data-aos-delay='100'>"+
+            if(p%2===0){
+              Portfolio.innerHTML += "<div class= 'row g-0'> " +
+              "<div class='col-md-6'>" + "<img class='img-fluid' src='"+cv.Portfolio[p].Foto + "' width='800' height='500'/>"+"</div>"+
+              "<div class='col-md-6 d-flex align-items-center' data-aos='fade-left' data-aos-delay='100'>"+
               "<div class='m-4 mt-md-2'>" +
-                "<p class='text-teal text-small'>" + cv.Portfolio[p].Linguas +"</p>" +
-                "<h3>"+ cv.Portfolio[p].Titulo +"</h3>"+
-                "<p class='text-muted'>"+cv.Portfolio[p].Descricao +"</p>"+
+              "<p class='text-teal text-small'>" + cv.Portfolio[p].Linguas +"</p>" +
+              "<h3>"+ cv.Portfolio[p].Titulo +"</h3>"+
+              "<p class='text-muted'>"+cv.Portfolio[p].Descricao +"</p>"+
               "</div>"+
-            "</div>"+
-          "</div>"
+              "</div>"+
+              "</div>"
+            }else{
+              Portfolio.innerHTML += "<div class='row g-0 portfolio-reverse'>"+
+              "<div class='col-md-6 d-flex align-items-center' data-aos='fade-right' data-aos-delay='100'>"+
+              "<div class='m-4 mt-md-2 text-end'>"+
+              "<p class='text-teal text-small'>"+cv.Portfolio[p].Linguas+"</p>"+
+              "<h3>"+cv.Portfolio[p].Titulo+"</h3>"+
+              "<p class='text-muted'>"+cv.Portfolio[p].Descricao+"</p>"+
+              "</div>"+
+              "</div>"+
+              "<div class='col-md-6'><img class='img-fluid' src='"+cv.Portfolio[p].Foto+"' width='800' height='500'/></a></div>"+
+              "</div>"
+            }
           }
         })
