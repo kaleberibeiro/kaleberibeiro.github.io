@@ -48,6 +48,7 @@ fetch('cv.json')
 
           //portfolio
           for( var p in cv.Portfolio){
+            console.log(p);
             Portfolio.innerHTML += "<div class= 'row g-0'> " +
             "<div class='col-md-6'>" + "<img class='img-fluid' src='"+cv.Portfolio[p].Foto + "' width='800' height='500'/>"+"</div>"+
             "<div class='col-md-6 d-flex align-items-center' data-aos='fade-left' data-aos-delay='100'>"+

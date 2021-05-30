@@ -27,7 +27,7 @@
     "Portfolio" : [
         {
             "Foto" : "images/arduino.jpg",
-            "Linguas" : "C++",
+            "Linguas" : "Eletronic / C++",
             "Titulo" : "Simon Says",
             "Descricao" : "Este projeto trata-se de um jogo muito popular, o simon says, que foi desenvolvido com alguns Leds, botões, um buzzer e o principal que é o arduino, entre outros componentes utilizados."
         }
