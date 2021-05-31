@@ -23,6 +23,7 @@ var TelefoneBaixo = document.getElementById("telefoneBaixo");
 var background = document.getElementById("imagemBack");
 var tec = document.getElementById("tecSkills");
 var soft = document.getElementById("softSkills");
+var hire = document.getElementById("hire");
 
 fetch('cv.json')
         .then(response => response.json())
@@ -40,6 +41,7 @@ fetch('cv.json')
           EmailBaixo.innerText = cv.geral.Email;
           TelefoneBaixo.innerText = cv.geral.Telefone;
           background.src = cv.geral.Background;
+          hire.src = cv.geral.Hire;
 
           
 
@@ -86,6 +88,6 @@ fetch('cv.json')
           }
 
           for(var s in cv.Skills.Soft){
-            soft.innerHTML += "<li>"+ cv.Skills.Tecnicas[s] + "</li>"
+            soft.innerHTML += "<li>"+ cv.Skills.Soft[s] + "</li>"
           }
         })

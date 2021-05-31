@@ -9,7 +9,8 @@
         "Morada" : "Quinta Olho d' Água",
         "Foto" : "images/perfil1.jpg",
         "Descrição" : "O meu nome é Marcos Ribeiro, sou um estudante do segundo ano de Tecnologias de Informação.",
-        "Background" : "images/background2.jpg"
+        "Background" : "images/background5.jpg",
+        "Hire" : "images/hire-me.jpg"
     },
 
     "Educacao" : [
