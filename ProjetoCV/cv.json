@@ -9,7 +9,7 @@
         "Morada" : "Quinta Olho d' Água",
         "Foto" : "images/perfil1.jpg",
         "Descrição" : "O meu nome é Marcos Ribeiro, sou um estudante do segundo ano de Tecnologias de Informação.",
-        "Background" : "images/background.jpg"
+        "Background" : "images/background2.jpg"
     },
 
     "Educacao" : [
@@ -44,5 +44,20 @@
             "Titulo" : "Simon Says",
             "Descricao" : "Este projeto trata-se de um jogo muito popular, o simon says, que foi desenvolvido com alguns Leds, botões, um buzzer e o principal que é o arduino, entre outros componentes utilizados."
         }
-    ]
+    ],
+
+    "Skills" : {
+        "Tecnicas" : [
+            "Web Development",
+            "Sistemas de comunicação",
+            "Algoritmía",
+            "Gestão de Base de Dados"
+        ],
+        "Soft" : [
+            "Trabalho em equipa",
+            "Comunicação",
+            "Bom Humor",
+            "Português, Inglês, Espanhol"
+        ]
+    }
 }

@@ -4,7 +4,7 @@ AOS.init({
   duration: 1000
 });
 
-// Add your javascript here
+// Declaração de Variáveis
 
 var NomeTitulo = document.getElementById("nomeTopo");
 var NomeFooter = document.getElementById("nomeBaixo");
@@ -21,6 +21,8 @@ var Portfolio = document.getElementById("portfolio");
 var EmailBaixo = document.getElementById("emailBaixo");
 var TelefoneBaixo = document.getElementById("telefoneBaixo");
 var background = document.getElementById("imagemBack");
+var tec = document.getElementById("tecSkills");
+var soft = document.getElementById("softSkills");
 
 fetch('cv.json')
         .then(response => response.json())
@@ -77,5 +79,13 @@ fetch('cv.json')
               "<div class='col-md-6'><img class='img-fluid' src='"+cv.Portfolio[p].Foto+"' width='800' height='500'/></a></div>"+
               "</div>"
             }
+          }
+
+          for(var t in cv.Skills.Tecnicas){
+            tec.innerHTML += "<li>"+ cv.Skills.Tecnicas[t] + "</li>"
+          }
+
+          for(var s in cv.Skills.Soft){
+            soft.innerHTML += "<li>"+ cv.Skills.Tecnicas[s] + "</li>"
           }
         })
