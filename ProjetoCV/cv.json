@@ -8,7 +8,8 @@
         "Telefone" : 917708785,
         "Morada" : "Quinta Olho d' Água",
         "Foto" : "images/perfil1.jpg",
-        "Descrição" : "O meu nome é Marcos Ribeiro, sou um estudante do segundo ano de Tecnologias de Informação."
+        "Descrição" : "O meu nome é Marcos Ribeiro, sou um estudante do segundo ano de Tecnologias de Informação.",
+        "Background" : "images/background.jpg"
     },
 
     "Educacao" : [
@@ -32,10 +33,10 @@
             "Descricao" : "Este projeto trata-se de um jogo muito popular, o simon says, que foi desenvolvido com alguns Leds, botões, um buzzer e o principal que é o arduino, entre outros componentes utilizados."
         },
         {
-            "Foto" : "images/arduino.jpg",
-            "Linguas" : "Eletronic / C++",
-            "Titulo" : "Simon Says",
-            "Descricao" : "Este projeto trata-se de um jogo muito popular, o simon says, que foi desenvolvido com alguns Leds, botões, um buzzer e o principal que é o arduino, entre outros componentes utilizados."
+            "Foto" : "images/jogo-da-forca.png",
+            "Linguas" : "HTML / CSS / JS",
+            "Titulo" : "Jogo da Forca",
+            "Descricao" : "Este projeto trata-se do clássico jogo da forca, em que uma palavra é sorteada e o utilizador tenta acertar qual é a palavra, tendo apenas um certo número de tentaivas."
         },
         {
             "Foto" : "images/arduino.jpg",

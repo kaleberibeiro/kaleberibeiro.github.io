@@ -17,7 +17,10 @@ var Morada = document.getElementById("morada");
 var fotoPerfil = document.getElementById("imagemPerfil");
 var sobre = document.getElementById("sobreMim");
 var Educacao = document.getElementById("Educacao"); 
-var Portfolio = document.getElementById("portfolio"); 
+var Portfolio = document.getElementById("portfolio");
+var EmailBaixo = document.getElementById("emailBaixo");
+var TelefoneBaixo = document.getElementById("telefoneBaixo");
+var background = document.getElementById("imagemBack");
 
 fetch('cv.json')
         .then(response => response.json())
@@ -32,6 +35,9 @@ fetch('cv.json')
           Morada.innerText = cv.geral.Morada;
           fotoPerfil.src = cv.geral.Foto;
           sobre.innerText = cv.geral.Descrição;
+          EmailBaixo.innerText = cv.geral.Email;
+          TelefoneBaixo.innerText = cv.geral.Telefone;
+          background.src = cv.geral.Background;
 
           
 
