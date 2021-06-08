@@ -40,10 +40,10 @@
             "Descricao" : "Este projeto trata-se do clássico jogo da forca, em que uma palavra é sorteada e o utilizador tenta acertar qual é a palavra, tendo apenas um certo número de tentaivas."
         },
         {
-            "Foto" : "images/arduino.jpg",
-            "Linguas" : "Eletronic / C++",
-            "Titulo" : "Simon Says",
-            "Descricao" : "Este projeto trata-se de um jogo muito popular, o simon says, que foi desenvolvido com alguns Leds, botões, um buzzer e o principal que é o arduino, entre outros componentes utilizados."
+            "Foto" : "images/dothings.png",
+            "Linguas" : "Python",
+            "Titulo" : "Do Things",
+            "Descricao" : "Este projeto trata-se de uma aplicação desenvolvida em python com o intuito de ajudar os seus utilizadores a organizar os seus horários e os seus projetos."
         }
     ],
 
