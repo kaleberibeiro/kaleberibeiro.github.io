@@ -7,9 +7,9 @@
         "Email" : "kaleberibeiro@ua.pt",
         "Telefone" : 917708785,
         "Morada" : "Quinta Olho d' Água",
-        "Foto" : "images/perfil1.jpg",
+        "Foto" : "https://i.imgur.com/X3I6tiB.jpeg",
         "Descrição" : "O meu nome é Marcos Ribeiro, sou um estudante do segundo ano de Tecnologias de Informação.",
-        "Background" : "images/background5.jpg",
+        "Background" : "https://i.imgur.com/8XVQqpS.jpeg",
         "Hire" : "images/hire-me.jpg"
     },
 
@@ -28,19 +28,19 @@
 
     "Portfolio" : [
         {
-            "Foto" : "images/arduino.jpg",
+            "Foto" : "https://i.imgur.com/NAafNSY.jpeg",
             "Linguas" : "Eletronic / C++",
             "Titulo" : "Simon Says",
             "Descricao" : "Este projeto trata-se de um jogo muito popular, o simon says, que foi desenvolvido com alguns Leds, botões, um buzzer e o principal que é o arduino, entre outros componentes utilizados."
         },
         {
-            "Foto" : "images/jogo-da-forca.png",
+            "Foto" : "https://i.imgur.com/w3ziv1a.png",
             "Linguas" : "HTML / CSS / JS",
             "Titulo" : "Jogo da Forca",
             "Descricao" : "Este projeto trata-se do clássico jogo da forca, em que uma palavra é sorteada e o utilizador tenta acertar qual é a palavra, tendo apenas um certo número de tentaivas."
         },
         {
-            "Foto" : "images/dothings.png",
+            "Foto" : "https://i.imgur.com/o7Dx7dJ.png",
             "Linguas" : "Python",
             "Titulo" : "Do Things",
             "Descricao" : "Este projeto trata-se de uma aplicação desenvolvida em python com o intuito de ajudar os seus utilizadores a organizar os seus horários e os seus projetos."
