@@ -10,7 +10,10 @@
         "Foto" : "https://i.imgur.com/X3I6tiB.jpeg",
         "Descrição" : "O meu nome é Marcos Ribeiro, sou um estudante do segundo ano de Tecnologias de Informação.",
         "Background" : "https://i.imgur.com/8XVQqpS.jpeg",
-        "Hire" : "images/hire-me.jpg"
+        "Hire" : "images/hire-me.jpg",
+        "git" : "https://github.com/kaleberibeiro",
+        "fb" : "https://www.facebook.com/kalebe.ribeiro.737",
+        "insta" : "https://www.instagram.com/kalebe.ribeiro12/"
     },
 
     "Educacao" : [

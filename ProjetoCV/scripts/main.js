@@ -24,6 +24,12 @@ var background = document.getElementById("imagemBack");
 var tec = document.getElementById("tecSkills");
 var soft = document.getElementById("softSkills");
 var hire = document.getElementById("hire");
+var gitCima = document.getElementById("gitCima");
+var fbCima = document.getElementById("fbCima");
+var instaCima = document.getElementById("instaCima");
+var gitBaixo = document.getElementById("gitBaixo");
+var fbBaixo = document.getElementById("fbBaixo");
+var instaBaixo = document.getElementById("instaBaixo");
 
 fetch('cv.json')
         .then(response => response.json())
@@ -42,6 +48,12 @@ fetch('cv.json')
           TelefoneBaixo.innerHTML += cv.geral.Telefone;
           background.src = cv.geral.Background;
           hire.src = cv.geral.Hire;
+          gitCima.href = cv.geral.git;
+          fbCima.href = cv.geral.fb;
+          instaCima.href = cv.geral.insta;
+          gitBaixo.href = cv.geral.git;
+          fbBaixo.href = cv.geral.fb;
+          instaBaixo.href = cv.geral.insta;
 
           
 
