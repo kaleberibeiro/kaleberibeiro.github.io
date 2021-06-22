@@ -38,8 +38,8 @@ fetch('cv.json')
           Morada.innerText = cv.geral.Morada;
           fotoPerfil.src = cv.geral.Foto;
           sobre.innerText = cv.geral.Descrição;
-          EmailBaixo.innerText += cv.geral.Email;
-          TelefoneBaixo.innerText += cv.geral.Telefone;
+          EmailBaixo.innerHTML += cv.geral.Email;
+          TelefoneBaixo.innerHTML += cv.geral.Telefone;
           background.src = cv.geral.Background;
           hire.src = cv.geral.Hire;
 
